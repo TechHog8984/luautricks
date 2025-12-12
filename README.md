@@ -84,6 +84,21 @@ These require more extreme cases to notice a difference
 >        t[#t + 1] = math.random()
 >    end
 >    ```
+2.  use arr values exclusively
+>    ```luau
+>    -- slower
+>    local t = { flags = { option = true }, writes = {}, reads = {} }
+>    t.flags.option = false
+>    if t.flags.option then game:FindService("Players").LocalPlayer:Kick() end
+>
+>    -- faster
+>    local t = { [1] = { [1] = true }, [2] = {}, [3] = {} }
+>    t[1][1] = false
+>    if t[1][1] then game:FindService("Players").LocalPlayer:Kick() end
+>    ```
+Tables' array and dictionary capabilities are implemented as two entirely separate things in Luau, and the array portion is inheritly faster if used correctly.
+
+This is, however, extremely tedious and horrible for maintainability.
 
 ## Contributing
 To contribute, either:
