@@ -98,7 +98,7 @@ These require more extreme cases to notice a difference
 >    ```
 Tables' array and dictionary capabilities are implemented as two entirely separate things in Luau, and the array portion is inheritly faster if used correctly.
 
-This is, however, extremely tedious and horrible for maintainability.
+This is, however, extremely tedious and horrible for maintainability, although [moonveil](https://moonveil.cc) offers a [macro](https://moonveil.cc/docs/macros/mv_index_to_num/) if you're only working with one file.
 
 ## Contributing
 To contribute, either:
