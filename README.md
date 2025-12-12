@@ -45,7 +45,7 @@ __Table of contents__:
 >        until true
 >    end
 >    ```
-Both compile to the same code when optimizationLevel > 0.
+Both compile to the same bytecode when optimizationLevel > 0.
 
 ## Optimizations
 ### General optimizations
