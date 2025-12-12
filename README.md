@@ -88,4 +88,4 @@ These require more extreme cases to notice a difference
 ## Contributing
 To contribute, either:
 1. Reach out to me on discord ([@techhog or userid 402264559509045258](https://discord.com/users/402264559509045258)), or
-2. Do so directly via [pull requests](pulls); note this is the less prefered option as I am very opinionated and will likely end up heavily modifying your contribution so I would rather you not spend time writing markdown just for me to change everything. 
+2. Do so directly via [pull requests](../../pulls); note this is the less prefered option as I am very opinionated and will likely end up heavily modifying your contribution so I would rather you not spend time writing markdown just for me to change everything. 
